@@ -1,0 +1,60 @@
+div{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+ margin: 0 auto;
+ margin-top: 50px;
+ width: 30%;
+ padding: 30px;    
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+label{
+    font-size: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+table td, table th {
+    border: 1px solid;
+
+    
+}
+table th{
+    background-color: #8caacf;
+    padding: 10px;
+    gap: 5px;
+    transform-box: 10px;
+    font-size: 20px;
+}
+input[type="text"], select, textarea{
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type="submit"]{
+    background-color: #3973b6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 20px;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #2b619e;
+    text-decoration: underline;
+  }
